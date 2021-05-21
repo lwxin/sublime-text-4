@@ -1,0 +1,21 @@
+{
+    "name": "sublime-text-4",
+    "displayName": "Sublime Text 4",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sublime Text 4 Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sublime Text 4 Dark-color-theme.json"
+            }
+        ]
+    }
+}
