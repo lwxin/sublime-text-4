@@ -1,21 +1,30 @@
 {
-    "name": "sublime-text-4",
-    "displayName": "Sublime Text 4",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.56.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Sublime Text 4 Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Sublime Text 4 Dark-color-theme.json"
-            }
-        ]
-    }
+	"name": "sublime-text-4-theme",
+	"displayName": "Sublime Text 4 Theme",
+	"description": "Sublime Text 4 Dark Theme for Python",
+	"version": "0.0.1",
+	"publisher": "lwxin",
+	"author": {
+		"name": "lwxin"
+	},
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Sublime Text 4 Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Sublime Text 4 Dark-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "0a805b7b-33f7-47f5-b654-b682bf28584b",
+		"publisherDisplayName": "lwxin",
+		"publisherId": "ef22374d-3adc-4811-962b-891751f5e09d"
+	}
 }
