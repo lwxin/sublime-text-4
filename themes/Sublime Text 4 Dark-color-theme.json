@@ -5,12 +5,16 @@
 		"editor.background": "#303841",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#606467",
-		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBar.background": "#1D2227",
-		"statusBar.background": "#181C21",
+		"sideBarTitle.foreground": "#e6e6e6",
+		"sideBar.background": "#22262a",
+		"statusBar.background": "#22262a",
 		"statusBar.foreground": "#8E9295",
-		"activityBar.background": "#1D2227",
-		"sib"
+		"activityBar.background": "#22262a",
+		"sideBar.border": "#22262a",
+		"activityBar.border": "#22262a",
+		"list.activeSelectionBackground": "#393f46",
+		"focusBorder": "#22262a",
+		"editor.selectionBackground": "#4d5864",
 	},
 	"tokenColors": [
 		{
@@ -153,7 +157,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#6699cc"
 			}
 		},
 		{
@@ -231,6 +235,37 @@
 			],
 			"settings": {
 				"foreground": "#D8DEE9"
+			}
+		},
+		{
+			"name": "entity.name.type.class.python",
+			"scope": [
+				"entity.name.function.python",
+			],
+			"settings": {
+				"foreground": "#5fb4b4"
+			}
+		},
+		{
+			"name": "meta.function.parameters.python",
+			"scope": [
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"punctuation.definition.parameters.end.python",
+				"punctuation.definition.parameters.begin.python",
+			],
+			"settings": {
+				"foreground": "#e4e5e6"
+			}
+		},
+		{
+			"name": "variable.parameter.function.language.python",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.parameter.function.language.python",
+			],
+			"settings": {
+				"foreground": "#F9AE58"
 			}
 		},
 		{
@@ -333,6 +368,15 @@
 			}
 		},
 		{
+			"name": "string.quoted.docstring.multi.python",
+			"scope": [
+				"string.quoted.docstring.multi.python",
+			],
+			"settings": {
+				"foreground": "#CDD4DE"
+			}
+		},
+		{
 			"name": "punctuation.definition",
 			"scope": [
 				"punctuation.definition.dict.begin.python",
@@ -342,6 +386,16 @@
 			],
 			"settings": {
 				"foreground": "#E4E5E7"
+			}
+		},
+		{
+			"name": "comment.line.number-sign.python",
+			"scope": [
+				"punctuation.definition.comment.python",
+				"comment.line.number-sign.python",
+			],
+			"settings": {
+				"foreground": "#a6acb9"
 			}
 		},
 		{
