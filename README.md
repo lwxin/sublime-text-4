@@ -1,4 +1,11 @@
 # README
-## This is the README for "sublime-text-4"
 
-### Just for python
+## Just for python
+
+## [0.0.2] - 2021-05-25
+
+### Fixed
+
+- Fix statusBar.debugging color.
+
+## [0.0.1] - 2021-05-23

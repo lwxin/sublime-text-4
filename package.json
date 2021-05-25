@@ -2,7 +2,8 @@
 	"name": "sublime-text-4-theme",
 	"displayName": "Sublime Text 4 Theme",
 	"description": "Sublime Text 4 Dark Theme for Python",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"repository": "https://github.com/lwxin/sublime-text-4",
 	"publisher": "lwxin",
 	"author": {
 		"name": "lwxin"
